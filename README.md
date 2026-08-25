@@ -10,6 +10,17 @@ Model ini dapat digunakan oleh perusahaan penyewaan sepeda untuk mengoptimalkan 
 - **Matplotlib & Seaborn** (Visualisasi Data)
 - **Scikit-learn** (Machine Learning)
 
+**Grafik Perbandingan Prediksi vs Aktual (Random Forest):**
+
+![Grafik Random Forest](rf_plot.png)
+
+**Perbandingan Model Linear vs Random Forest:**
+
+![Perbandingan Model](model_compare.png)
+
+** EDA **
+![EDAl](eda.png)
+
 ## Evaluation
 Saya membandingkan dua model machine learning untuk melihat mana yang paling akurat:
 
@@ -30,10 +41,4 @@ Dari analisis fitur (Feature Importance), ditemukan bahwa **Jam (hr)** dan **Suh
 2. **Pengaruh Cuaca:** Saat hujan (weathersit = 3) atau suhu sangat dingin, jumlah penyewaan turun drastis. *Rekomendasi:* Kurangi stok atau alihkan sepeda ke perawatan (maintenance) pada hari hujan.
 3. **Target Lanjutan:** Pada proyek ini, target yang digunakan adalah `cnt` (total). Untuk penelitian selanjutnya, model akan dipecah menjadi target `casual` (pengguna harian) dan `registered` (member) untuk memahami perilaku masing-masing.
 
-**Grafik Perbandingan Prediksi vs Aktual (Random Forest):**
 
-![Grafik Random Forest](rf_plot.png)
-
-**Perbandingan Model Linear vs Random Forest:**
-
-![Perbandingan Model](model_compare.png)
