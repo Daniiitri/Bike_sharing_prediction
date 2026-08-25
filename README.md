@@ -29,3 +29,11 @@ Dari analisis fitur (Feature Importance), ditemukan bahwa **Jam (hr)** dan **Suh
 1. **Pola Komuter:** Terdapat lonjakan permintaan yang sangat tinggi pada jam **08.00 pagi** dan **17.00 sore** di hari kerja. *Rekomendasi:* Tambahkan stok sepeda ekstra pada jam-jam tersebut.
 2. **Pengaruh Cuaca:** Saat hujan (weathersit = 3) atau suhu sangat dingin, jumlah penyewaan turun drastis. *Rekomendasi:* Kurangi stok atau alihkan sepeda ke perawatan (maintenance) pada hari hujan.
 3. **Target Lanjutan:** Pada proyek ini, target yang digunakan adalah `cnt` (total). Untuk penelitian selanjutnya, model akan dipecah menjadi target `casual` (pengguna harian) dan `registered` (member) untuk memahami perilaku masing-masing.
+
+**Grafik Perbandingan Prediksi vs Aktual (Random Forest):**
+
+![Grafik Random Forest](rf_plot.png)
+
+**Perbandingan Model Linear vs Random Forest:**
+
+![Perbandingan Model](model_compare.png)
